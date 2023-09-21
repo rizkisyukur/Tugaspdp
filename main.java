@@ -1,39 +1,23 @@
-import java.util.Scanner;
-class Input {
-    public static void main(String[] args) {
-    Scanner input = new Scanner(System.in);
-        System.out.print("Masukkan Nama : ");
-        String a = input.next();
-        // a=nama
-        System.out.println("Nama : "+a);
+public class main{
+public static void main (String[] args){
+String a="Rizki Syukur";
+int b=1237050087;
+int c=94;
+int d=90;
+int e=91;
+double f=(c*30/100d+d*30/100d+e*40/100d);
+// a = Nama
+// b = NIM
+// c = Tugas Awal
+// d = Nilai UTS
+// e = Nilai UAS
+// f = Tugas Akhir
 
-        System.out.print("Masukkan NIM : ");
-        int b = input.nextInt();
-        // b=NIM
-        System.out.println("NIM : "+b);
-
-        System.out.print("Masukkan Nilai Tugas : ");
-        int c = input.nextInt();
-        // c=nilai tugas
-        System.out.println("Nilai Tugas : "+c);
-
-        System.out.print("Masukkan Nilai UTS : ");
-        int d = input.nextInt();
-        //d=nilai UTS
-        System.out.println("Nilai UTS :"+d);
-
-        System.out.print("Masukkan Nilai UAS : ");
-        int e = input.nextInt();
-        //e=nilai UAS
-        System.out.println("Nilai UAS :"+e);
-
-        double f = (c*30/100d+d*30/100d+e*40/100d); 
-        //f=nilai Akhir
-        System.out.println("Nilai Akhir :"+f);
-
-        input.close();
-
-
-    
+System.out.println("Nama : "+a);
+System.out.println("NIM : "+b);
+System.out.println("Tugas Awal : "+c);
+System.out.println("Nilai UTS : "+d);
+System.out.println("Nilai UAS : "+e);
+System.out.println("Tugas Akhir : "+f);
     }
 }

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Input {
+class Inputnilai {
     public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
         System.out.print("Masukkan Nama : ");
@@ -25,12 +25,14 @@ class Input {
         double f = (c*30/100d+d*30/100d+e*40/100d); 
         //f=nilai Akhir
 
-            System.out.println("Nama : "+a);
-            System.out.println("NIM : "+b);
-            System.out.println("Nilai Tugas : "+c);
-            System.out.println("Nilai UTS :"+d);
-            System.out.println("Nilai UAS :"+e);
-            System.out.println("Nilai Akhir :"+f);
+        System.out.println("===== Data Nilai Mahasiswa =====");
+        System.out.println("Nama : "+a);
+        System.out.println("NIM : "+b);
+        System.out.println("Nilai Tugas : "+c);
+        System.out.println("Nilai UTS :"+d);
+        System.out.println("Nilai UAS :"+e);
+        System.out.println("Nilai Akhir :"+f);
+        System.out.println("================================");
 
             if(f>=60){
                 System.out.println(a+"LULUS");
@@ -38,7 +40,7 @@ class Input {
                 System.out.println(a+"Tidak LULUS");
             }
 
-        
+        input.close();
 
             
 
